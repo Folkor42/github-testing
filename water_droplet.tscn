@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://c3f1id6sfiocg"]
+[gd_scene load_steps=2 format=3 uid="uid://c3f1id6sfiocg"]
+
+[ext_resource type="Texture2D" uid="uid://dc5dpmnhuxsk1" path="res://Droplets.jpg" id="1_56b4y"]
 
 [node name="Water Droplet" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_56b4y")
+hframes = 2
+vframes = 2
+frame = 3
